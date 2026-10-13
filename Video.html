@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="temas.html">Regresar</a>
+    <h1>Video</h1>
+    <p>Para insertar un video en una página web, se utiliza la etiqueta nativa <´video> de HTML5 o un marco 
+        incrustado (<´iframe>) si proviene de plataformas externas como YouTube o Vimeo. </p>
+    <p><"video> es el elemento HTML se utiliza para mostrar un vídeo en una página web.</p>
+    
+    <video width="300" height="300" autoplay loop controls>
+    <source src="salaudo.mp4" type="video/mp4">
+    </video>
+
+    <h3>Atributos útiles</h3>
+    <ul>
+        <li>loop  : Hace que el video se reinicie automáticamente cada vez que termina.</li>
+        <li>autoplay  : Hace que el video comience a reproducirse solo al cargar la página.</li>
+        <li>muted  : Silencia el video. Los navegadores actuales bloquean el autoplay si el video tiene sonido.</li>
+        <li>controls  : Muestra los botones de reproducción, pausa y volumen.</li>
+    </ul>
+
+    <h3>El elemento HTML <´video></h3>
+    <p>Para mostrar un vídeo en HTML, utilice el <´video> elemento:</p>
+    <img src="CV.png" height="200" width="300">
+
+    <h3>Cómo funciona</h3>
+    <p>Este controlsatributo añade controles de vídeo, como reproducir, pausar y ajustar el volumen.
+       Es recomendable incluir siempre los atributos de altura widthy heightanchura. Si no se especifican 
+       estas características, la página podría parpadear mientras se carga el vídeo.
+       Este <´source>elemento permite especificar archivos de vídeo alternativos entre los que el navegador
+       puede elegir. El navegador utilizará el primer formato que reconozca.
+       El texto entre las etiquetas <´video> y </´video>solo se mostrará en navegadores que no admitan el <´video> elemento.</p>
+
+    <h3>Reproducción automática</h3>
+    <p>Para iniciar un vídeo automáticamente, utilice el autoplayatributo:</p>
+    <img src="automatica.png" height="200" width="300">
+    
+    <h3>Reproduccion en bucle</h3>
+    <P>Para poner un video en bucle en HTML, debes agregar el atributo loop a la etiqueta <´video></P>
+    <img src="bucle.png" height="100" width="300">
+    
+    <h1>Audio</h1>
+    <p>El <´audio> elemento HTML se utiliza para reproducir un archivo de audio en una página web.</p>
+    <p>Para reproducir un archivo de audio en HTML, utilice el <´audio> elemento:</p>
+    <img src="audio.png" height="200" width="300">
+
+    <h3>cómo funciona</h3>
+    <p>Este controlsatributo añade controles de audio, como reproducir, pausar y ajustar el volumen.</p>
+    <p>Este <´source> elemento permite especificar archivos de audio alternativos entre los que el navegador puede elegir. El navegador utilizará el primer formato reconocido.</p>
+    <p>El texto entre las etiquetas <´audio> y <´/audio>solo se mostrará en navegadores que no admitan el <´audio>elementos</p>
+
+    <h3>Reproducción automática</h3>
+    <p>Para iniciar un archivo de audio automáticamente, utilice el autoplayatributo:</p>
+    <img src="VA.png" height="200" width="300">
+    <br>
+    <audio controls autoplay loop>
+    <source src="sparks.mp3" type="audio/mp3">
+    </audio>
+
+    <h1>Imangen</h1>
+    <p>La <´img> etiqueta HTML se utiliza para insertar una imagen en una página web.</p>
+    <p>Las imágenes no se insertan técnicamente en una página web; se enlazan a páginas web. La <´img> etiqueta crea un espacio reservado para la imagen a la que se hace referencia.</p>
+    <p>La <´img> etiqueta está vacía, contiene solo atributos y no tiene etiqueta de cierre.</p>
+    <p>La <´img> etiqueta tiene dos atributos obligatorios:</p>
+    <dl>
+        <dt>src </dt>
+           <dd>- Especifica la ruta a la imagen</dd>
+        <dt>alt </dt>
+           <dd>- Especifica un texto alternativo para la imagen</dd>
+    </dl>
+    <img src="imagen.png" alt="imagen ejemplo">
+
+    <h3>Tamaño de la imagen: ancho y alto</h3>
+    <p>Los atributos width and height siempre definen el ancho y la altura de la imagen en píxeles.</p>
+    <img src="Ancho Alto.png" height="40" width="500">
+
+</body>
+</html>
